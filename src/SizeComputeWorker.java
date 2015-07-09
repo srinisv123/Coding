@@ -12,7 +12,7 @@ class SizeComputeWorker extends Worker {
 
     /**
      * Pretty print the file sizes
-     * /
+     */
     private String fileSizeString(long size) {
         float floatSize = (float) size;
         if (size / 1000000000 > 0) {
